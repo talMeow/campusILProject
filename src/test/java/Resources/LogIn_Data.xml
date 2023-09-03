@@ -1,0 +1,12 @@
+<LoginCases>
+    <login>
+        <usr>shadi.ibr7@gmail.com</usr>
+        <pwd>i123so123</pwd>
+        <status>valid</status>
+    </login>
+    <login>
+        <usr>blablabla</usr>
+        <pwd>i123so123</pwd>
+        <status>invalid</status>
+    </login>
+</LoginCases>
