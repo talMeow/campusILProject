@@ -25,7 +25,7 @@ public class ExtentManager {
     private static String filePath;
 
 
-    /*TODO: Fix it to Relative*/
+    /*TODO: Fix it to Relative & to checkl if its on the same project files*/
     private static String PATH_PREFIX = "C:\\Users\\Shadi Ibrahim\\IdeaProjects\\CampusILTesting\\src\\test\\reports";
 
 

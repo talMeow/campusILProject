@@ -29,4 +29,8 @@ public class MainSite extends PageBase {
         open_menu.click();
         log_out_button.click();
     }
+
+    //TODO: SIGN_IN FUNCTION ONLY USED WHEN DOING SIGN_OUT TEST (LOGIN INFO HARDCODDED)
+
+
 }

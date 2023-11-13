@@ -3,7 +3,7 @@
         <parameter name="BROWSER" value="chrome"/>
         <classes>
             <class name="Tests.SignIn"/>
-            <!--  <class name = "Tests.SignOut" /> -->
+            <!--<class name = "Tests.SignOut" />-->
         </classes>
     </test>
     <test name="test2">
