@@ -1,8 +1,10 @@
 <suite name="Suite1">
     <test name="test1">
         <parameter name="BROWSER" value="chrome"/>
+        <parameter name="LANGUAGE" value="عربي"/>
         <classes>
-            <class name="Tests.SignIn"/>
+            <class name="Tests.LanguageTest"/>
+            <!--<class name="Tests.SignIn"/>-->
             <!--<class name = "Tests.SignOut" />-->
         </classes>
     </test>
