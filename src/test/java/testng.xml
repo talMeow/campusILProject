@@ -2,8 +2,11 @@
     <test name="test1">
         <parameter name="BROWSER" value="chrome"/>
         <parameter name="LANGUAGE" value="عربي"/>
+        <parameter name="TEXT_TO_SEARCH" value=" "/>
         <classes>
-            <class name="Tests.LanguageTest"/>
+            <class name="Tests.ControllersTest"/>
+            <!--<class name="Tests.SearchTest"/>-->
+            <!--<class name="Tests.LanguageTest"/>-->
             <!--<class name="Tests.SignIn"/>-->
             <!--<class name = "Tests.SignOut" />-->
         </classes>
@@ -11,14 +14,18 @@
     <test name="test2">
         <parameter name="BROWSER" value="edge"/>
         <classes>
-            <class name="Tests.SignIn"/>
+            <!--<class name="Tests.SearchTest"/>-->
+            <!--<class name="Tests.LanguageTest"/>-->
+           <!-- <class name="Tests.SignIn"/>-->
             <!--  <class name = "Tests.SignOut" /> -->
         </classes>
     </test>
     <test name="test3">
         <parameter name="BROWSER" value="firefox"/>
         <classes>
-            <class name="Tests.SignIn"/>
+            <!--<class name="Tests.SearchTest"/>-->
+            <!--<class name="Tests.LanguageTest"/>-->
+            <!--<class name="Tests.SignIn"/>-->
             <!--  <class name = "Tests.SignOut" /> -->
         </classes>
     </test>

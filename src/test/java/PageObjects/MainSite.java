@@ -19,6 +19,12 @@ public class MainSite extends PageBase {
     WebElement lang_button;
     @FindBy(xpath = "//div[4]/div[2]/div/ul/li")
     List<WebElement> lang_list;
+    @FindBy(id = "search-text")
+    public WebElement search_box;
+    @FindBy(xpath = "*//div[6]/div/form/div[1]/span/button")
+    public WebElement search_button;
+    @FindBy(xpath = "*//nav/div/ul/li/a")
+    public List<WebElement> navigate_buttons;
 
     public MainSite(String url,WebDriver driver) {
         super(url,driver);
@@ -54,7 +60,6 @@ public class MainSite extends PageBase {
                     break;
             }
         }
-
     }
 
     //TODO: SIGN_IN FUNCTION ONLY USED WHEN DOING SIGN_OUT TEST (LOGIN INFO HARDCODDED)
