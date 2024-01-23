@@ -17,7 +17,7 @@ public class XML_JAVA_LOGIN {
     private static String Login_Pwd;
     private static String Status;
     public static String[][] XML_JAVA_LOGIN() throws IOException, SAXException, ParserConfigurationException {
-        File xmlFile = new File("/home/tal-meow/IdeaProjects/campusProject/src/test/java/Resources/LogIn_Data.xml");
+        File xmlFile = new File("C:\\Users\\Shadi Ibrahim\\IdeaProjects\\CAMPUSIL_testing\\src\\test\\java\\Resources\\LogIn_Data.xml");
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(xmlFile);
